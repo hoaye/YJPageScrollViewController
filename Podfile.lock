@@ -1,0 +1,15 @@
+PODS:
+  - MJRefresh (3.1.15)
+  - YJBannerView (2.3.2)
+
+DEPENDENCIES:
+  - MJRefresh
+  - YJBannerView
+
+SPEC CHECKSUMS:
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  YJBannerView: 83c78800cdae1ac8cff53f1292100dd8495ef953
+
+PODFILE CHECKSUM: 1638666b367ce1c76ae81d83fc5c2f6bd97d6ef0
+
+COCOAPODS: 1.2.1
