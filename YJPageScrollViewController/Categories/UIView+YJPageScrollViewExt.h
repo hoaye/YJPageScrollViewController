@@ -10,4 +10,14 @@
 
 @interface UIView (YJPageScrollViewExt)
 
+@property (nonatomic, assign) CGFloat yj_x;
+
+@property (nonatomic, assign) CGFloat yj_y;
+
+@property (nonatomic, assign) CGFloat yj_width;
+
+@property (nonatomic, assign) CGFloat yj_height;
+
+- (void)removeAllSubviews;
+
 @end

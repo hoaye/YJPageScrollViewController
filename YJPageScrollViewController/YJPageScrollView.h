@@ -10,4 +10,7 @@
 
 @interface YJPageScrollView : UIScrollView
 
+@property (nonatomic, assign) CGFloat headerViewHeight; /**< 高度 */
+@property (nonatomic, assign) BOOL gestureRecognizerShouldBegin;
+
 @end

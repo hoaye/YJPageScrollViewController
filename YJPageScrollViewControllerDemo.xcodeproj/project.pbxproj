@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631290A41FBE820800171F4F /* JianShuDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631290A31FBE820800171F4F /* JianShuDemoViewController.m */; };
+		631290A71FBE847500171F4F /* YJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631290A61FBE847500171F4F /* YJBaseViewController.m */; };
+		631290AA1FBE859000171F4F /* YJTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631290A91FBE859000171F4F /* YJTextViewController.m */; };
+		631290B21FBED58900171F4F /* BackGroundWithMy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631290B01FBED58900171F4F /* BackGroundWithMy@2x.png */; };
+		631290B31FBED58900171F4F /* BackGroundWithMy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631290B11FBED58900171F4F /* BackGroundWithMy@3x.png */; };
 		63A5CE281FBD964800FFEC86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5CE271FBD964800FFEC86 /* AppDelegate.m */; };
 		63A5CE2B1FBD964800FFEC86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5CE2A1FBD964800FFEC86 /* ViewController.m */; };
 		63A5CE2E1FBD964800FFEC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A5CE2C1FBD964800FFEC86 /* Main.storyboard */; };
@@ -24,6 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		631290A21FBE820800171F4F /* JianShuDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JianShuDemoViewController.h; sourceTree = "<group>"; };
+		631290A31FBE820800171F4F /* JianShuDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianShuDemoViewController.m; sourceTree = "<group>"; };
+		631290A51FBE847500171F4F /* YJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJBaseViewController.h; sourceTree = "<group>"; };
+		631290A61FBE847500171F4F /* YJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBaseViewController.m; sourceTree = "<group>"; };
+		631290A81FBE859000171F4F /* YJTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTextViewController.h; sourceTree = "<group>"; };
+		631290A91FBE859000171F4F /* YJTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTextViewController.m; sourceTree = "<group>"; };
+		631290B01FBED58900171F4F /* BackGroundWithMy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackGroundWithMy@2x.png"; sourceTree = "<group>"; };
+		631290B11FBED58900171F4F /* BackGroundWithMy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackGroundWithMy@3x.png"; sourceTree = "<group>"; };
 		63A5CE231FBD964800FFEC86 /* YJPageScrollViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJPageScrollViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A5CE261FBD964800FFEC86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63A5CE271FBD964800FFEC86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		631290AB1FBE868D00171F4F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				631290B01FBED58900171F4F /* BackGroundWithMy@2x.png */,
+				631290B11FBED58900171F4F /* BackGroundWithMy@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		63A5CE1A1FBD964800FFEC86 = {
 			isa = PBXGroup;
 			children = (
@@ -87,10 +109,17 @@
 		63A5CE251FBD964800FFEC86 /* YJPageScrollViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				631290AB1FBE868D00171F4F /* Resource */,
 				63A5CE261FBD964800FFEC86 /* AppDelegate.h */,
 				63A5CE271FBD964800FFEC86 /* AppDelegate.m */,
 				63A5CE291FBD964800FFEC86 /* ViewController.h */,
 				63A5CE2A1FBD964800FFEC86 /* ViewController.m */,
+				631290A21FBE820800171F4F /* JianShuDemoViewController.h */,
+				631290A31FBE820800171F4F /* JianShuDemoViewController.m */,
+				631290A51FBE847500171F4F /* YJBaseViewController.h */,
+				631290A61FBE847500171F4F /* YJBaseViewController.m */,
+				631290A81FBE859000171F4F /* YJTextViewController.h */,
+				631290A91FBE859000171F4F /* YJTextViewController.m */,
 				63A5CE2C1FBD964800FFEC86 /* Main.storyboard */,
 				63A5CE2F1FBD964800FFEC86 /* Assets.xcassets */,
 				63A5CE311FBD964800FFEC86 /* LaunchScreen.storyboard */,
@@ -207,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631290B31FBED58900171F4F /* BackGroundWithMy@3x.png in Resources */,
 				63A5CE331FBD964800FFEC86 /* LaunchScreen.storyboard in Resources */,
+				631290B21FBED58900171F4F /* BackGroundWithMy@2x.png in Resources */,
 				63A5CE301FBD964800FFEC86 /* Assets.xcassets in Resources */,
 				63A5CE2E1FBD964800FFEC86 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +301,11 @@
 			files = (
 				63A5CE4F1FBD97DC00FFEC86 /* YJPageScrollViewMenuTool.m in Sources */,
 				63A5CE4C1FBD97B800FFEC86 /* YJPageScrollViewMenu.m in Sources */,
+				631290A71FBE847500171F4F /* YJBaseViewController.m in Sources */,
 				63A5CE521FBD980F00FFEC86 /* YJPageScrollHeaderView.m in Sources */,
+				631290AA1FBE859000171F4F /* YJTextViewController.m in Sources */,
 				63A5CE491FBD979D00FFEC86 /* YJPageScrollView.m in Sources */,
+				631290A41FBE820800171F4F /* JianShuDemoViewController.m in Sources */,
 				63A5CE2B1FBD964800FFEC86 /* ViewController.m in Sources */,
 				63A5CE3F1FBD970C00FFEC86 /* YJPageScrollViewController.m in Sources */,
 				63A5CE461FBD977900FFEC86 /* UIViewController+YJPageScrollViewExt.m in Sources */,

@@ -1,15 +1,23 @@
 PODS:
   - MJRefresh (3.1.15)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
   - YJBannerView (2.3.2)
+  - YJCommonMacro (0.0.6)
 
 DEPENDENCIES:
   - MJRefresh
+  - SDWebImage
   - YJBannerView
+  - YJCommonMacro
 
 SPEC CHECKSUMS:
   MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   YJBannerView: 83c78800cdae1ac8cff53f1292100dd8495ef953
+  YJCommonMacro: 0c419c99725961d37ed36f8adb2851bd851d607d
 
-PODFILE CHECKSUM: 1638666b367ce1c76ae81d83fc5c2f6bd97d6ef0
+PODFILE CHECKSUM: a2b3d403ff508332ce181f9caded7239a7cd2319
 
 COCOAPODS: 1.2.1

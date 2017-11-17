@@ -8,5 +8,7 @@ target 'YJPageScrollViewControllerDemo' do
   # Pods for YJPageScrollViewControllerDemo
   pod 'MJRefresh'
   pod 'YJBannerView'
+  pod 'YJCommonMacro'
+  pod 'SDWebImage'
 
 end

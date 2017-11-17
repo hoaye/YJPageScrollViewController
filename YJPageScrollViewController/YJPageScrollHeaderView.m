@@ -10,12 +10,12 @@
 
 @implementation YJPageScrollHeaderView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
+    if (self.delegate && [self.delegate respondsToSelector:@selector(yjPageScrollHeaderViewHitTest:)]) {
+        [self.delegate yjPageScrollHeaderViewHitTest:!CGRectContainsPoint(self.frame, point)];
+    }
+    return [super hitTest:point withEvent:event];
 }
-*/
+
 
 @end

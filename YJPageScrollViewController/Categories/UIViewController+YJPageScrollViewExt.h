@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class YJPageScrollViewController;
 @interface UIViewController (YJPageScrollViewExt)
+
+/**
+ 子类直接获取
+
+ @return YJPageScrollViewController
+ */
+- (YJPageScrollViewController *)yjPageScrollViewController;
 
 @end
