@@ -24,7 +24,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *labelInit = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 60)];
+    labelInit.font = [UIFont systemFontOfSize:15];
+    labelInit.textAlignment = NSTextAlignmentLeft;
+    labelInit.backgroundColor = [UIColor clearColor];
+    labelInit.textColor = [UIColor redColor];
+    labelInit.text = @"点击一下嘛，又不会怀孕";
+    [self.view addSubview:labelInit];
 }
 
 -  (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
